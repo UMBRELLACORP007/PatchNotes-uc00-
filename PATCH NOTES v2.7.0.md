@@ -4,7 +4,9 @@
 
 ## v2.7.0 — Server Optimization
 - Server region shifted from US East (Virginia, USA) to Southeast Asia (Singapore)
-- Minor fix: Fixed Email ping issue 
+- Minor fix: Fixed Email ping issue
+- Updated system message from "Chat cleared." to "New session started." for improved session clarity 
+- Updated CMD boot screen text for improved realism and interface consistency
 
 ---
 
