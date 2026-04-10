@@ -2,7 +2,7 @@
 
 ---
 
-## v2.7.0 — Server Optimization
+## v2.7.0 — Stability & UX Improvements
 - Server region shifted from US East (Virginia, USA) to Southeast Asia (Singapore)
 - Fixed email delivery issue by correcting recipient handling to ensure reliable notifications
 - Updated system message from "Chat cleared." to "New session started." for improved session clarity 
