@@ -2,6 +2,12 @@
 
 ---
 
+## v2.7.0 — Server Optimization
+- Server region shifted from US East (Virginia, USA) to Southeast Asia (Singapore)
+- Minor fix: Fixed Email ping issue 
+
+---
+
 ## v2.6.0 — Timezone Localization
 - Message timestamps now display in Indian Standard Time (IST, UTC +5:30)
 - Applies to both incoming and outgoing messages
