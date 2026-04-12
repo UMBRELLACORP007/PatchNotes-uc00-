@@ -7,6 +7,7 @@
 - Fixed email delivery issue by correcting recipient handling to ensure reliable notifications
 - Updated system message from "Chat cleared." to "New session started." for improved session clarity 
 - Updated CMD boot screen text for improved realism and interface consistency
+- Changed [ CLS ] Button to [ NWS ] for better abstraction
 
 ---
 
