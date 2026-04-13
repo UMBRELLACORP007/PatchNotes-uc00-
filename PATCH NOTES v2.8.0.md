@@ -2,10 +2,19 @@
 
 ---
 
+## v2.8.0 — Tab Notification System
+- Browser tab favicon now blinks when a new message arrives and the tab is inactive
+- Favicon alternates between default icon and a red dot notification indicator
+- Blinking stops immediately when the user returns to the tab
+- Multiple incoming messages do not stack intervals
+- Original favicon restored on tab focus
+
+---
+
 ## v2.7.0 — Stability & UX Improvements
 - Server region shifted from US East (Virginia, USA) to Southeast Asia (Singapore)
 - Fixed email delivery issue by correcting recipient handling to ensure reliable notifications
-- Updated system message from "Chat cleared." to "New session started." for improved session clarity 
+- Updated system message from "Chat cleared." to "New session started." for improved session clarity
 - Updated CMD boot screen text for improved realism and interface consistency
 - Changed [ CLS ] Button to [ NWS ] for better abstraction
 - Added project logo to browser's tab
