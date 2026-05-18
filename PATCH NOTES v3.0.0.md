@@ -2,9 +2,21 @@
 
 ---
 
+## v3.0.0 — Session Integrity & Status Reliability
+
+* Bot now sends BOT <connected> and BOT <disconnected> status messages directly via DM for reliable session visibility
+* Session now handles browser crashes, tab closes, network drops, and unexpected shutdowns gracefully
+* Reconnect after refresh or internet loss restores session cleanly without re-triggering notifications
+* Multiple tabs or stale sessions no longer cause conflicts — only the active session is recognised
+* Added EXIT button to CMD UI with confirmation popup before disconnecting
+* Confirmed exit cleanly terminates the session, restores email alerts, and stops all background tasks
+* Cancel option in popup keeps the session running without interruption
+
+---
+
 ## v2.9.0 — File Transfer System
 
-* Added `!f` command to instantly open native file browser from CMD interface
+* Added !f command to instantly open native file browser from CMD interface
 * Added incoming file support for received attachments from connected friend session
 * Uploaded files now display with filename and instant download access inside chat
 * Improved attachment rendering and transfer stability
