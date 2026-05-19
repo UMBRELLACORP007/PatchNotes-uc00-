@@ -8,9 +8,10 @@
 * Session now handles browser crashes, tab closes, network drops, and unexpected shutdowns gracefully
 * Reconnect after refresh or internet loss restores session cleanly without re-triggering notifications
 * Multiple tabs or stale sessions no longer cause conflicts — only the active session is recognised
+* Session stays active while tab is in background — connection maintained without requiring tab to be visible
+* Tab favicon turns green when session needs attention after extended background inactivity
 * Added EXIT button to CMD UI with confirmation popup before disconnecting
 * Confirmed exit cleanly terminates the session, restores email alerts, and stops all background tasks
-* Cancel option in popup keeps the session running without interruption
 
 ---
 
