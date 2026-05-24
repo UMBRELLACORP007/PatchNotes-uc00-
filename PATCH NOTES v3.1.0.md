@@ -2,14 +2,30 @@
 
 ---
 
+## v3.1.0 — Diagnostic Monitor & Interaction Enhancements
+
+* Added live system diagnostic monitor
+* Monitor display fake RAM usage with animated fill bar and memory values
+* Monitor displays fake network traffic graph with continuous animated fluctuations
+* Monitor displays session uptime counter that begins on connect and resets on disconnect
+* Outgoing typing indicator active, when composing a message, the connected session appears as actively typing on the remote end
+* Added message editing command: !e <id> <new text> to edit previously sent messages
+* Edited messages update on both ends simultaneously
+* Edited messages display a subtle indicator confirming the change
+
+---
+
 ## v3.0.0 — Session Integrity & Status Reliability
 
 * Session now handles browser crashes, tab closes, network drops, and unexpected shutdowns gracefully
 * Reconnect after refresh or internet loss restores session cleanly without re-triggering notifications
-* Multiple tabs or stale sessions no longer cause conflicts, only the active session is recognised
+* Multiple tabs or stale sessions no longer cause conflicts — only the active session is recognised
+* Session stays active while tab is in background — connection maintained without requiring tab to be visible
 * Tab favicon turns green when session needs attention after extended background inactivity
+* Green reminder clears immediately when user returns to the tab
 * Added EXIT button to CMD UI with confirmation popup before disconnecting
 * Confirmed exit cleanly terminates the session, restores email alerts, and stops all background tasks
+* Cancel option in popup keeps the session running without interruption
 
 ---
 
